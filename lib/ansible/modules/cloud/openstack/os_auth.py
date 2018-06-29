@@ -65,4 +65,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    # test ci stable-2.6
+    main(123)
