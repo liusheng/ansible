@@ -47,8 +47,8 @@ from ansible.module_utils.basic import AnsibleModule
 from ansible.module_utils.openstack import openstack_full_argument_spec, openstack_module_kwargs, openstack_cloud_from_module
 
 
-def main():
-
+def main(jjjj)
+    i am error
     argument_spec = openstack_full_argument_spec()
     module_kwargs = openstack_module_kwargs()
     module = AnsibleModule(argument_spec, **module_kwargs)
@@ -65,4 +65,5 @@ def main():
 
 
 if __name__ == '__main__':
+    # test
     main()
